@@ -18,5 +18,12 @@
         "--profile",
         "black"
     ],
+    "[notebook]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        },
+    },
     "editor.detectIndentation": false,
 }
